@@ -7,6 +7,6 @@ while True:
     answer = input(f"{question[0]}: ")
     if answer == question[1]:
         print("Answer is correct")
-        print(f"Correct answer: {question[1]}")
     else:
         print("Answer is incorrect")
+        print(f"Correct answer: {question[1]}")
